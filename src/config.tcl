@@ -55,7 +55,3 @@ set ::env(CLOCK_PORT) {clk}
 # don't use power rings or met5
 set ::env(DESIGN_IS_CORE) 0
 set ::env(RT_MAX_LAYER) {met4}
-
-# connect to first digital rails
-set ::env(VDD_NETS) [list {vccd1}]
-set ::env(GND_NETS) [list {vssd1}]
